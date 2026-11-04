@@ -1,0 +1,135 @@
+{
+  "source": "Competition resource package, lab_ex5_i2s; Anlogic-generated IP",
+  "required_files": [
+    {
+      "path": "src/user_source/hdl_source/audio_arc_calculate.v",
+      "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/lane_lvds_10_1.v",
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/startup_pulse.v",
+      "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/color_bar.v",
+      "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/seg_decoder.v",
+      "sha256": "4592b6e4d2e9e8b7e4ab5266d850d30e43537ab9c4157d4221e3f8dfd342decd",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/seg_scan.v",
+      "sha256": "08759c329c33cdb7a6070e0b46773f0a6c9c8052b51652dec29406b9a9dac1e3",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/video_delay.v",
+      "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/video_timing_data.v",
+      "sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/video_define.v",
+      "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/sdram.v",
+      "sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+      "kind": "reference_design"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/global_def.v",
+      "sha256": "894836ac847b89f01e3fb8197d2109282a53d9f262ad6b990b908bb9511586ee",
+      "kind": "modified_reference_dependency"
+    },
+    {
+      "path": "src/td_project/al_ip/PLL_HDMI_AUDIO.v",
+      "sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/td_project/al_ip/PLL_HDMI_AUDIO.vhd",
+      "sha256": "1b5025b3fe29d4428c6aa58ef99e7c5d7c5d697e74dacd8ac8f2d068290e0e2f",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sys_pll.v",
+      "sha256": "94a72f698be6ee5462564ea6044f45457276e3d715380758762812bd847b6af5",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sys_pll.vhd",
+      "sha256": "18f1e9a65ef3229c631909729a477c0788c6304e2758efc15b74210628e6c2b7",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/video_pll.v",
+      "sha256": "d5a2b3d3d0618d19619c36af0143f8bf9338415eef2eadd22456510ade9c6092",
+      "kind": "generated_ip"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/video_pll.vhd",
+      "sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4",
+      "kind": "generated_ip"
+    }
+  ]
+}

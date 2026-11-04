@@ -1,0 +1,95 @@
+{
+  "reference_bit_sha256": "2b1b2a03f6288baf136f80d8cbf1cbd71e8e7458032729970c2b166126e6a74f",
+  "reference_resources": {
+    "lut": 7302,
+    "reg": 5214,
+    "bram": 62,
+    "dsp": 2
+  },
+  "reference_timing_ns": {
+    "SWNS": 0.083,
+    "STNS": 0.0,
+    "HWNS": 0.011,
+    "HTNS": 0.0
+  },
+  "board_validation_of_new_features": "pending",
+  "public_source_validation": {
+    "date": "2026-10-29",
+    "audio_shift": 0,
+    "audio_gain_relative_to_source": 1,
+    "rerun_independent_simulations": {
+      "pause_audio": "PASS pause audio: four cases, 8192 exact real PCM samples, 8253 continuous48k ticks (45 paused zero ticks), baseline parity, ready/ACK/bank boundaries, underrun and EOF resume",
+      "show_video": "PASS show video: eight full frames, 6450 exact 48k ticks, 2854 real PCM samples, WAIT/EOF silence, signed extrema/zero vectors, RGB/OSD/AXIS alignment and mode/replay reset safety"
+    },
+    "unchanged_logic_simulations": "Four previous control/BMP/OSD regressions retained; not rerun",
+    "matching_full_project_build": {
+      "status": "PASS",
+      "resources": {
+        "lut": 7302,
+        "reg": 5214,
+        "bram": 62,
+        "dsp": 2
+      },
+      "timing_ns": {
+        "SWNS": 0.083,
+        "STNS": 0.0,
+        "HWNS": 0.011,
+        "HTNS": 0.0
+      },
+      "generated_bit_sha256": "2b1b2a03f6288baf136f80d8cbf1cbd71e8e7458032729970c2b166126e6a74f",
+      "board_downloaded": false
+    },
+    "portable_td_build": "Not rerun for this update; 2026-10-27 portable-build record is historical"
+  },
+  "rtl_sha256": {
+    "src/user_source/hdl_source/AVP/avp_reader.v": "38b41a7a55a380b68a0b213d64a2eb44afbfc87a5bdc39847223fa8de4e45216",
+    "src/user_source/hdl_source/AVP/avp_audio.v": "a38843665cb60b0feb04371747185b8f4c6e891909cf296001fe3bd3d11f6cec",
+    "src/user_source/hdl_source/AVP/avp_subtitles.v": "258de3d6fbde3733200d43522ec77965adc0c78b7ca5e79fd5918cb528f877a0",
+    "src/user_source/hdl_source/SD/sd_native_4bit.v": "5302a726c03674b71479c7509cd43f380448d86be118f4619e2ae123bfc3b345",
+    "src/user_source/hdl_source/OSD/brightness_control.v": "ff60b7903e37acc41306fedd01f9a73c493d47e98e40d92a30afebb0e45451f7",
+    "src/user_source/hdl_source/OSD/brightness_osd.v": "3be2fca08d1a72cd8bbbc72cecf0d5d6fc5b47494db7687dc41041e52a59e7fc",
+    "src/user_source/hdl_source/OSD/audio_waveform.v": "4eab41d3b3ce28ef05f3ab3627f22165729f25aec1d88074222e00edda47f421",
+    "src/user_source/hdl_source/OSD/key_hold_actions.v": "bbb83c2e6609e9b3ecc28fdd6cd7dccfdf7c4a5f239803c2619a70436c19c3c3",
+    "src/user_source/hdl_source/OSD/show_controller.v": "dfa78ee931a25efed756e81e3d0d83ed0886dbc629c7e33c3e31db8d8b31d3ec",
+    "src/user_source/hdl_source/top_tf_hdmi_audio.v": "99a12691b9456cb35f91d2763c9471426cec9165dd05a72d0b40eb2c9556bdc8",
+    "src/user_source/hdl_source/video_rgb_to_axis_640x480.v": "189a2d36f70eae59b2b0033e6598039515be427c1f9f8a42eb85c0990682fce0",
+    "src/user_source/hdl_source/SD/bmp_read.v": "9f187e2adea40211504a4dd9b6128b190470509e6cb011bb230a564a85f12322",
+    "src/user_source/hdl_source/SD/frame_fifo_read.v": "85db7ca570b48db310795a5aee12957172d3476e7b510b4c10071f3d2cce8ad8",
+    "src/user_source/hdl_source/SD/frame_fifo_write.v": "0abf91730c155839744b0479bcc0f5ea1883e166eab33e7c7d444f2bc821d8c8",
+    "src/user_source/hdl_source/SD/frame_read_write.v": "3b707b79e438630ba256695f03035beab5e676f074d5b3d9413b176c7e9cfd45",
+    "src/user_source/hdl_source/SD/sd_card_bmp.v": "6296a97c172b57df19ea908e27e88f52a00d999e1b9b09c86cfc00c6ceb34b9f"
+  },
+  "previous_public_source_validation_20261027": {
+    "date": "2026-10-27",
+    "independent_simulations": {
+      "key_hold": "PASS key hold: bounce rejection, release-only short, one long/no release short, threshold, mode cancellation and reset",
+      "pause_audio": "PASS pause audio: four cases, 8192 exact real PCM samples, 8253 continuous48k ticks (45 paused zero ticks), baseline parity, ready/ACK/bank boundaries, underrun and EOF resume",
+      "show_osd": "PASS: show OSD checked 2813114 pixel/timing cycles; 4 brightness x 17 fade x 256 channels in PIC/VIDEO, nine full frames, AUTO ON/OFF PLAY/PAUSE/END glyphs, frame-atomic fade/status/brightness, full-intensity OSD at black, reset/enable and three-clock timing",
+      "bmp_preload": "PASS BMP preload: actual BMP parser, scan0/1/4, header/pixels/SD padding, early8 late2 memory completion, held ready/no ACK overwrite, one busy request, simultaneous ACK+next, cyclic banks, reset/SD re-entry and button_level",
+      "show_controller": "PASS show controller: bounded manual queue, AUTO timer/re-enable, late/no ACK safety, frame-only fade/commit; actual100M SD/BMP +25M controller committed0,1,2,3,0,1,2,3,0 with 9 simultaneous ACK+next events and early/late memory completion",
+      "show_video": "PASS show video: eight full frames, 6450 exact 48k ticks, 2854 real PCM samples, WAIT/EOF silence, signed extrema/zero vectors, RGB/OSD/AXIS alignment and mode/replay reset safety"
+    },
+    "portable_td_build": {
+      "status": "PASS with locally restored matching vendor dependencies",
+      "tool": "Tang Dynasty V6.2.168116",
+      "resources": {
+        "lut": 7379,
+        "reg": 5215,
+        "bram": 62,
+        "dsp": 2,
+        "pll": 3
+      },
+      "timing_ns": {
+        "SWNS": 0.129,
+        "STNS": 0.0,
+        "HWNS": 0.003,
+        "HTNS": 0.0
+      },
+      "generated_bit_bytes": 673856,
+      "generated_bit_sha256": "ef3830b840070be0c0bcb4c406d8bda186bdfbd29679d8ba8f44eb205c80f675",
+      "board_downloaded": false
+    },
+    "dependency_restore_checks": "PASS: matching restoration, traversal rejection, differing-target preservation",
+    "card_layout_self_test": "PASS"
+  }
+}

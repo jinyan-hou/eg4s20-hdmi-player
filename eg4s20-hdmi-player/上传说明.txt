@@ -1,0 +1,10 @@
+上传目标：https://github.com/jinyan-hou/eg4s20-hdmi-player
+
+在GitHub仓库网页点击 Add file → Upload files。
+进入本文件夹，全选里面的 src、sim、media、docs、tools、README.md、run_build.tcl、.gitignore 等项目文件并拖入网页。保持目录结构，不要只上传外层ZIP，也不要把 verification_work 测试目录上传。
+README.md会替换建仓时的简短简介，这是正常的。
+提交说明可填写：Add FPGA multimedia player source and documentation。
+提交前检查文件列表没有 .enc.v、.lic、原视频、大AVP或仿真缓存。
+GitHub浏览器单次最多100个文件；若平台提示数量超限，按子文件夹分批上传。
+完成提交后刷新，确认 src、sim、docs 等目录可见，再将仓库首页网址填到比赛系统。
+本公开目录说明了未分发的厂商依赖，不应宣称不补依赖即可完整编译。
